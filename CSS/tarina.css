@@ -1,0 +1,13 @@
+/* Bootstrapin kanssa toimivat muutokset */
+body {
+    margin: 8em 0;
+}
+
+a {
+    color: black;
+}
+
+a.active {
+    font-weight: bold;
+    color: black;
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="utf-8">
+    <title>Kahvi</title>
+    <link rel="stylesheet" href="../CSS/otsikko&alatunniste.css">
+    <link rel="stylesheet" href="../CSS/content.css">
+</head>
+<body>
+<!-- Otsikko -->
+<div class="top">
+    <div class="valkoinen">
+        <a href="../index.html" class="baarituote button">ERVIN’S CAFÉ</a>
+        <!-- Oikeanpuoleiset navigointipalkit -->
+        <div class="rightvaakavalikko pieni">
+            <a href="../index.html" class="baarituote button">Kaikki tuotteet</a>
+            <a href="../kahvinhistoria.html" class="baarituote button">Kahvin tarina</a>
+        </div>
+    </div>
+</div>
+
+
+<!-- Tavaraostot -->
+<!-- Diaesityskontti -->
+<h1 class="tavarat">Runeberginkakku</h1>
+
+<div class="diaesityskontti">
+
+    <!-- Kuva 1 -->
+    <div class="mySlides">
+        <!-- Takaisin -->
+        <a href="../index.html" class="circle">Takaisin</a>
+        <img src="https://1.bp.blogspot.com/-lGIoOjnKR9U/URC6REWzSuI/AAAAAAAABSY/2JT5SbGFo-0/s1600/runeberginkakku.jpg" style="width:100%">
+    </div>
+
+    <!-- Kuva 2 -->
+    <div class="mySlides">
+        <!-- Takaisin -->
+        <a href="../index.html" class="circle">Takaisin</a>
+        <img src="https://cdn.valio.fi/mediafiles/bf09ad98-d359-4154-a904-1b4926f0a17d/1440x1080-recipe-hero" style="width:100%">
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+    <!-- Piste 1 -->
+    <span class="piste" onclick="currentSlide(1)"></span>
+    <!-- Piste 2 -->
+    <span class="piste" onclick="currentSlide(2)"></span>
+    <!-- Piste... -->
+</div>
+
+
+
+<!-- Sisaltö -->
+<button class="tablink" onclick="openPage('1 kpl', this, '#FAE05A')" id="defaultOpen">🍰1 kpl</button>
+<button class="tablink" onclick="openPage('2 kpl', this, '#FAE05A')">🍰2 kpl</button>
+<button class="tablink" onclick="openPage('5 kpl', this, '#FAE05A')">🍰🍰5 kpl</button>
+<button class="tablink" onclick="openPage('10 kpl', this, '#FAE05A')">🍰🍰🍰10 kpl</button>
+
+<div id="1 kpl" class="tabcontent">
+    <h1>🍰 1 kpl Runeberginkakku</h1>
+    <p>(Läheisemmässä pisteessä saada tuotteen 0€:lla)</p>
+    <h3>Kokonaishinta:</h3>
+    <h1>15 €</h1>
+    <a href="../index.html"><img src="https://sun9-72.userapi.com/c857236/v857236185/183073/szxzQLnPQ7s.jpg" width="130" alt="🍰1 kpl (lähin nousupiste 0€)" tabindex="0"></a>
+</div>
+
+<div id="2 kpl" class="tabcontent">
+    <h1>🍰 2 kpl Runeberginkakku</h1>
+    <p>(Läheisemmässä pisteessä saada tuotteen 0€:lla)</p>
+    <h3>Kokonaishinta:</h3>
+    <h1>30 €</h1>
+    <a href="../index.html"><img src="https://sun9-72.userapi.com/c857236/v857236185/183073/szxzQLnPQ7s.jpg" width="130" alt="🍰2 kpl (lähin nousupiste 0€)" tabindex="0"></a>
+</div>
+
+<div id="5 kpl" class="tabcontent">
+    <h1>🍰 5 kpl Runeberginkakku</h1>
+    <p>(Läheisemmässä pisteessä saada tuotteen 0€:lla)</p>
+    <h3>Kokonaishinta:</h3>
+    <h1>75 €</h1>
+    <a href="../index.html"><img src="https://sun9-72.userapi.com/c857236/v857236185/183073/szxzQLnPQ7s.jpg" width="130" alt="🍰🍰5 kpl (lähin nousupiste 0€)" tabindex="0"></a>
+</div>
+
+<div id="10 kpl" class="tabcontent">
+    <h1>🍰 10 kpl Runeberginkakku</h1>
+    <p>(Kotiinkuljetus 0€:lla)</p>
+    <h3>Kokonaishinta:</h3>
+    <h1>150 €</h1>
+    <a href="../index.html"><img src="https://sun9-72.userapi.com/c857236/v857236185/183073/szxzQLnPQ7s.jpg" width="130" alt="🍰🍰🍰10 kpl (ilmainen kotiinkuljetus)" tabindex="0"></a>
+</div>
+
+<!--Alatunniste-->
+<div class="row">
+    <div class="column">
+        <a href="../index.html"><h3 class="logofooter">Ervin’s café</h3></a>
+    </div>
+    <div class="column">
+        <a href="../index.html"><h3 class="h3footer">Kaikki tuotteet</h3></a>
+    </div>
+    <div class="column">
+        <a href="../kahvinhistoria.html"><h3 class="h3footer">Kahvin tarina</h3></a>
+    </div>
+    <div class="column">
+        <a href="mailto:ervin20050@gmail.com?subject=Business job offer / Yritystarjous"><h3 class="h3footer">Yritystarjous</h3></a>
+    </div>
+</div>
+
+<script  src="../JS/diaesityskontti.js"></script>
+</body>
+</html>

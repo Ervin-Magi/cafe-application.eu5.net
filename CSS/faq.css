@@ -1,0 +1,64 @@
+/* Rungon korkeus 100% */
+body, html {
+    height: 94%;
+    margin: 0;
+    margin-top:34px;
+}
+
+/* Välilehden linkkityyli */
+.tablink {
+    background-color: white;
+    color: #555;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+    text-align: center;
+}
+
+.tablink:hover {
+    background-color: #F2F2F2;
+    text-align: center;
+}
+
+/* Korkeus: 100% koko sivun sisällöstä */
+.tabcontent {
+    color: #555;
+    display: none;
+    padding: 100px 20px;
+    height: 89%;
+    text-align: center;
+}
+
+#REST {background-color: #C2A6FF;}
+#TESTIT {background-color: #FFDAB3;}
+#POST {background-color: #98AEFF;}
+#JS {background-color: #FFF780;}
+
+/* Iso kuva */
+img[tabindex="0"] {
+    cursor: zoom-in;
+}
+
+img[tabindex="0"]:focus {
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: auto;
+    height: auto;
+    max-width: 93%;
+    max-height: 93%;
+    margin: auto;
+    box-shadow: 0 0 20px #000, 0 0 0 1000px rgba(59,59,59,.4);
+}
+
+img[tabindex="0"]:focus,
+img[tabindex="0"]:focus ~ * {
+    pointer-events: none;
+}

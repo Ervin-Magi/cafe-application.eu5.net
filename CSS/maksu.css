@@ -1,0 +1,23 @@
+VISA {
+    margin-left: 70px;
+    font-weight: bold ;
+    float: left;
+    clear: left;
+    width: 100px;
+    text-align: left;
+    margin-right: 10px;
+    font-size:14px;
+}
+div {
+    box-sizing: border-box;
+    float: left;
+    align-content: center;
+    align-items: center;
+}
+form {
+    margin: 0 auto;
+    width: 600px;
+    border-radius: 20px;
+    background: radial-gradient(circle at 65% 15%, aqua, darkblue);
+    color: white;
+}

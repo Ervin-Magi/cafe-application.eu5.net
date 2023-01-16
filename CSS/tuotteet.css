@@ -1,0 +1,623 @@
+h3{
+    height: 100%;
+    width: 90%;
+    border-radius: 5px; /* Kulmat */}
+
+p{
+    height: 100%;
+    width: 23%;
+    border-radius: 5px; /* Kulmat */}
+
+.circle{ /* Soikea hintateksti */
+    height: 100%;
+    width: 23%; background-color: #FAE05A;
+    border-radius: 20px; /* Kulmat */
+    text-align: center;}
+
+.div1 { /* div, joka avaa kuvan ID:lla 1 */
+    border-radius: 12px 12px 0px 0px; /* Kulmat */
+    width: 400px;
+}
+
+.div1 { /* Lisää tuotekuva nro 1 */
+    background: url("https://media-cdn.tripadvisor.com/media/photo-p/14/7a/db/c0/caffe-ristretto.jpg")
+    no-repeat;
+    -webkit-background-size: cover;
+    min-height: 300px;
+    background-size: cover;
+    transition: 1s filter, 1s -webkit-filter;
+    -webkit-filter: none;
+    filter: none;
+}
+
+.div2 { /* div, joka avaa kuvan ID:lla 2 */
+    border-radius: 12px 12px 0px 0px; /* Kulmat */
+    width: 400px;
+}
+
+.div2 { /* Lisää tuotekuva nro 2 */
+    background: url("http://www.chocolate-brands.com/image/cache/catalog/DolceGusto/dg-ristretto-cup-700x700.jpg")
+    no-repeat;
+    -webkit-background-size: cover;
+    min-height: 300px;
+    background-size: cover;
+    transition: 1s filter, 1s -webkit-filter;
+    -webkit-filter: none;
+    filter: none;
+}
+
+.div3 { /* div, joka avaa kuvan ID:lla 3 */
+    border-radius: 12px 12px 0px 0px; /* Kulmat */
+    width: 400px;
+}
+
+.div3 { /* Lisää tuotekuva nro 3 */
+    background: url("http://insider.zt.ua/uploads/posts/2017-10/1509192132_depositphotos_70669453_m-2015.jpg")
+    no-repeat;
+    -webkit-background-size: cover;
+    min-height: 300px;
+    background-size: cover;
+    transition: 1s filter, 1s -webkit-filter;
+    -webkit-filter: none;
+    filter: none;
+}
+
+.div4 { /* div, joka avaa kuvan ID:lla 4 */
+    border-radius: 12px 12px 0px 0px; /* Kulmat */
+    width: 400px;
+}
+
+.div4 { /* Lisää tuotekuva nro 4 */
+    background: url("https://med-heal.ru/wp-content/uploads/2020/02/013.jpg")
+    no-repeat;
+    -webkit-background-size: cover;
+    min-height: 300px;
+    background-size: cover;
+    transition: 1s filter, 1s -webkit-filter;
+    -webkit-filter: none;
+    filter: none;
+}
+
+.div5 { /* div, joka avaa kuvan ID:lla 5 */
+    border-radius: 12px 12px 0px 0px; /* Kulmat */
+    width: 400px;
+}
+
+.div5 { /* Lisää tuotekuva nro 5 */
+    background: url("https://asset.winnetnews.com/image/cache/slide/post/image-apa-dampak-minum-kopi-bagi-penderita-asam-urat.jpg")
+    no-repeat;
+    -webkit-background-size: cover;
+    min-height: 300px;
+    background-size: cover;
+    transition: 1s filter, 1s -webkit-filter;
+    -webkit-filter: none;
+    filter: none;
+}
+
+.div6 { /* div, joka avaa kuvan ID:lla 6 */
+    border-radius: 12px 12px 0px 0px; /* Kulmat */
+    width: 400px;
+}
+
+.div6 { /* Lisää tuotekuva nro 6 */
+    background: url("https://i.pinimg.com/originals/db/a2/7b/dba27bfd9b72117f6f49f770a35b5479.jpg")
+    no-repeat;
+    -webkit-background-size: cover;
+    min-height: 300px;
+    background-size: cover;
+    transition: 1s filter, 1s -webkit-filter;
+    -webkit-filter: none;
+    filter: none;
+}
+
+.div7 { /* div, joka avaa kuvan ID:lla 7 */
+    border-radius: 12px 12px 0px 0px; /* Kulmat */
+    width: 400px;
+}
+
+.div7 { /* Lisää tuotekuva nro 7 */
+    background: url("https://1.bp.blogspot.com/-lGIoOjnKR9U/URC6REWzSuI/AAAAAAAABSY/2JT5SbGFo-0/s1600/runeberginkakku.jpg")
+    no-repeat;
+    -webkit-background-size: cover;
+    min-height: 300px;
+    background-size: cover;
+    transition: 1s filter, 1s -webkit-filter;
+    -webkit-filter: none;
+    filter: none;
+}
+
+.div8 { /* div, joka avaa kuvan ID:lla 8 */
+    border-radius: 12px 12px 0px 0px; /* Kulmat */
+    width: 400px;
+}
+
+.div8 { /* Lisää tuotekuva nro 8 */
+    background: url("https://cdn.verk.net/images/93/2_266893-741x688.jpg")
+    no-repeat;
+    -webkit-background-size: cover;
+    min-height: 300px;
+    background-size: cover;
+    transition: 1s filter, 1s -webkit-filter;
+    -webkit-filter: none;
+    filter: none;
+}
+
+.div9 { /* div, joka avaa kuvan ID:lla 9 */
+    border-radius: 12px 12px 0px 0px; /* Kulmat */
+    width: 400px;
+}
+
+.div9 { /* Lisää tuotekuva nro 9 */
+    background: url("https://www.nespresso.com/shared_res/mosaic_freehtml/images/coffees/ranges/intenso/big_cup.png")
+    no-repeat;
+    -webkit-background-size: cover;
+    min-height: 300px;
+    background-size: cover;
+    transition: 1s filter, 1s -webkit-filter;
+    -webkit-filter: none;
+    filter: none;
+}
+
+.div10 { /* div, joka avaa kuvan ID:lla 10 */
+    border-radius: 12px 12px 0px 0px; /* Kulmat */
+    width: 400px;
+}
+
+.div10 { /* Lisää tuotekuva nro 10 */
+    background: url("https://www.oldbakery.ru/upload_files/0efc6f5900e1ca950769956eaa66e313.jpg")
+    no-repeat;
+    -webkit-background-size: cover;
+    min-height: 300px;
+    background-size: cover;
+    transition: 1s filter, 1s -webkit-filter;
+    -webkit-filter: none;
+    filter: none;
+}
+
+.div11 { /* div, joka avaa kuvan ID:lla 11 */
+    border-radius: 12px 12px 0px 0px; /* Kulmat */
+    width: 400px;
+}
+
+.div11 { /* Lisää tuotekuva nro 11 */
+    background: url("https://avatars.mds.yandex.net/get-pdb/2093297/2859319e-d640-4961-800d-7156bf052fa1/s1200?webp=false")
+    no-repeat;
+    -webkit-background-size: cover;
+    min-height: 300px;
+    background-size: cover;
+    transition: 1s filter, 1s -webkit-filter;
+    -webkit-filter: none;
+    filter: none;
+}
+
+.div12 { /* div, joka avaa kuvan ID:lla 12 */
+    border-radius: 12px 12px 0px 0px; /* Kulmat */
+    width: 400px;
+}
+
+.div12 { /* Lisää tuotekuva nro 12 */
+    background: url("https://cdn.bitrix24.ru/b4625959/landing/f0c/f0c66a503efa37861d3cf356b686c9b8/tiramisu.jpg")
+    no-repeat;
+    -webkit-background-size: cover;
+    min-height: 300px;
+    background-size: cover;
+    transition: 1s filter, 1s -webkit-filter;
+    -webkit-filter: none;
+    filter: none;
+}
+
+.div13 { /* div, joka avaa kuvan ID:lla 13 */
+    border-radius: 12px 12px 0px 0px; /* Kulmat */
+    width: 400px;
+}
+
+.div13 { /* Lisää tuotekuva nro 13 */
+    background: url("https://avatars.mds.yandex.net/get-zen_doc/1362956/pub_5ade5319bce67e5462ebf352_5ade532f00b3dd2c1b2e17e9/scale_1200")
+    no-repeat;
+    -webkit-background-size: cover;
+    min-height: 300px;
+    background-size: cover;
+    transition: 1s filter, 1s -webkit-filter;
+    -webkit-filter: none;
+    filter: none;
+}
+
+.div14 { /* div, joka avaa kuvan ID:lla 14 */
+    border-radius: 12px 12px 0px 0px; /* Kulmat */
+    width: 400px;
+}
+
+.div14 { /* Lisää tuotekuva nro 14 */
+    background: url("https://coffeeofday.com/wp-content/uploads/2017/08/All-You-Need-To-Know-About-Lungo-vs-Espresso.jpg")
+    no-repeat;
+    -webkit-background-size: cover;
+    min-height: 300px;
+    background-size: cover;
+    transition: 1s filter, 1s -webkit-filter;
+    -webkit-filter: none;
+    filter: none;
+}
+
+.div15 { /* div, joka avaa kuvan ID:lla 15 */
+    border-radius: 12px 12px 0px 0px; /* Kulmat */
+    width: 400px;
+}
+
+.div15 { /* Lisää tuotekuva nro 15 */
+    background: url("https://3.allegroimg.com/s720/032d85/008e387a41b2988cc36e97956b33")
+    no-repeat;
+    -webkit-background-size: cover;
+    min-height: 300px;
+    background-size: cover;
+    transition: 1s filter, 1s -webkit-filter;
+    -webkit-filter: none;
+    filter: none;
+}
+
+.div16 { /* div, joka avaa kuvan ID:lla 16 */
+    border-radius: 12px 12px 0px 0px; /* Kulmat */
+    width: 400px;
+}
+
+.div16 { /* Lisää tuotekuva nro 16 */
+    background: url("https://cdn.anna.fi/wp-content/uploads/s3/2018/03/19111111/juustokakku-920x584.jpg")
+    no-repeat;
+    -webkit-background-size: cover;
+    min-height: 300px;
+    background-size: cover;
+    transition: 1s filter, 1s -webkit-filter;
+    -webkit-filter: none;
+    filter: none;
+}
+
+.div17 { /* div, joka avaa kuvan ID:lla 17 */
+    border-radius: 12px 12px 0px 0px; /* Kulmat */
+    width: 400px;
+}
+
+.div17 { /* Lisää tuotekuva nro 17 */
+    background: url("https://avatars.mds.yandex.net/get-pdb/1886543/aecbad20-6ec0-4631-81fc-0df4d88a2d43/s1200?webp=false")
+    no-repeat;
+    -webkit-background-size: cover;
+    min-height: 300px;
+    background-size: cover;
+    transition: 1s filter, 1s -webkit-filter;
+    -webkit-filter: none;
+    filter: none;
+}
+
+.div18 { /* div, joka avaa kuvan ID:lla 18 */
+    border-radius: 12px 12px 0px 0px; /* Kulmat */
+    width: 400px;
+}
+
+.div18 { /* Lisää tuotekuva nro 18 */
+    background: url("http://gardensquare-shopping.co.uk/wp-content/uploads/2018/01/Costa-Coffee-Introduces-Coconut-2.jpg")
+    no-repeat;
+    -webkit-background-size: cover;
+    min-height: 300px;
+    background-size: cover;
+    transition: 1s filter, 1s -webkit-filter;
+    -webkit-filter: none;
+    filter: none;
+}
+
+.div19 { /* div, joka avaa kuvan ID:lla 19 */
+    border-radius: 12px 12px 0px 0px; /* Kulmat */
+    width: 400px;
+}
+
+.div19 { /* Lisää tuotekuva nro 19 */
+    background: url("https://garim-parim.ru/wp-content/uploads/2019/02/sinnabon.jpg")
+    no-repeat;
+    -webkit-background-size: cover;
+    min-height: 300px;
+    background-size: cover;
+    transition: 1s filter, 1s -webkit-filter;
+    -webkit-filter: none;
+    filter: none;
+}
+
+.div20 { /* div, joka avaa kuvan ID:lla 20 */
+    border-radius: 12px 12px 0px 0px; /* Kulmat */
+    width: 400px;
+}
+
+.div20 { /* Lisää tuotekuva nro 20 */
+    background: url("https://www.uino.fi/imgcache/1200.1200/contentfiles/3416.jpg")
+    no-repeat;
+    -webkit-background-size: cover;
+    min-height: 300px;
+    background-size: cover;
+    transition: 1s filter, 1s -webkit-filter;
+    -webkit-filter: none;
+    filter: none;
+}
+
+.div21 { /* div, joka avaa kuvan ID:lla 21 */
+    border-radius: 12px 12px 0px 0px; /* Kulmat */
+    width: 400px;
+}
+
+.div21 { /* Lisää tuotekuva nro 21 */
+    background: url("https://cdn.valio.fi/mediafiles/c13a589b-b6e0-425b-a717-45e2440f3c88/1440x1080-recipe-hero")
+    no-repeat;
+    -webkit-background-size: cover;
+    min-height: 300px;
+    background-size: cover;
+    transition: 1s filter, 1s -webkit-filter;
+    -webkit-filter: none;
+    filter: none;
+}
+
+.div22 { /* div, joka avaa kuvan ID:lla 22 */
+    border-radius: 12px 12px 0px 0px; /* Kulmat */
+    width: 400px;
+}
+
+.div22 { /* Lisää tuotekuva nro 22 */
+    background: url("https://www.nastroy.net/pic/images/201912/13737-1576969211.jpg")
+    no-repeat;
+    -webkit-background-size: cover;
+    min-height: 300px;
+    background-size: cover;
+    transition: 1s filter, 1s -webkit-filter;
+    -webkit-filter: none;
+    filter: none;
+}
+
+.div23 { /* div, joka avaa kuvan ID:lla 23 */
+    border-radius: 12px 12px 0px 0px; /* Kulmat */
+    width: 400px;
+}
+
+.div23 { /* Lisää tuotekuva nro 23 */
+    background: url("https://laboratorioespresso.it/wp-content/uploads/2018/04/Crema-al-Caff%C3%A8-grande-1024x654.jpg")
+    no-repeat;
+    -webkit-background-size: cover;
+    min-height: 300px;
+    background-size: cover;
+    transition: 1s filter, 1s -webkit-filter;
+    -webkit-filter: none;
+    filter: none;
+}
+
+.div24 { /* div, joka avaa kuvan ID:lla 24 */
+    border-radius: 12px 12px 0px 0px; /* Kulmat */
+    width: 400px;
+}
+
+.div24 { /* Lisää tuotekuva nro 24 */
+    background: url("https://i.pinimg.com/474x/7f/71/a8/7f71a89cf32094166a23675e14152599.jpg")
+    no-repeat;
+    -webkit-background-size: cover;
+    min-height: 300px;
+    background-size: cover;
+    transition: 1s filter, 1s -webkit-filter;
+    -webkit-filter: none;
+    filter: none;
+}
+
+.div25 { /* div, joka avaa kuvan ID:lla 25 */
+    border-radius: 12px 12px 0px 0px; /* Kulmat */
+    width: 400px;
+}
+
+.div25 { /* Lisää tuotekuva nro 25 */
+    background: url("https://www.nespresso.com/ncp/res/uploads/recipes/nespresso-recipes-Espresso-Macchiato.jpg")
+    no-repeat;
+    -webkit-background-size: cover;
+    min-height: 300px;
+    background-size: cover;
+    transition: 1s filter, 1s -webkit-filter;
+    -webkit-filter: none;
+    filter: none;
+}
+
+.div26 { /* div, joka avaa kuvan ID:lla 26 */
+    border-radius: 12px 12px 0px 0px; /* Kulmat */
+    width: 400px;
+}
+
+.div26 { /* Lisää tuotekuva nro 26 */
+    background: url("https://ilavacafe.com/wp-content/uploads/2017/03/Espresso-Macchaito.jpg")
+    no-repeat;
+    -webkit-background-size: cover;
+    min-height: 300px;
+    background-size: cover;
+    transition: 1s filter, 1s -webkit-filter;
+    -webkit-filter: none;
+    filter: none;
+}
+
+.div27 { /* div, joka avaa kuvan ID:lla 26 */
+    border-radius: 12px 12px 0px 0px; /* Kulmat */
+    width: 400px;
+}
+
+.div27 { /* Lisää tuotekuva nro 27 */
+    background: url("https://www.chuijhal.com/wp-content/uploads/2018/03/pan-cake.jpg")
+    no-repeat;
+    -webkit-background-size: cover;
+    min-height: 300px;
+    background-size: cover;
+    transition: 1s filter, 1s -webkit-filter;
+    -webkit-filter: none;
+    filter: none;
+}
+
+.div28 { /* div, joka avaa kuvan ID:lla 28 */
+    border-radius: 12px 12px 0px 0px; /* Kulmat */
+    width: 400px;
+}
+
+.div28 { /* Lisää tuotekuva nro 28 */
+    background: url("https://thumbs.dreamstime.com/b/%D1%8F%D0%B1-%D0%BE%D1%87%D0%BD%D1%8B%D0%B9-%D0%BF%D0%B8%D1%80%D0%BE%D0%B3-%D1%81-%D1%81%D0%B2%D0%B5%D0%B6%D0%B8%D0%BC%D0%B8-%D1%84%D1%80%D1%83%D0%BA%D1%82%D0%B0%D0%BC%D0%B8-34915174.jpg")
+    no-repeat;
+    -webkit-background-size: cover;
+    min-height: 300px;
+    background-size: cover;
+    transition: 1s filter, 1s -webkit-filter;
+    -webkit-filter: none;
+    filter: none;
+}
+
+.div29 { /* div, joka avaa kuvan ID:lla 29 */
+    border-radius: 12px 12px 0px 0px; /* Kulmat */
+    width: 400px;
+}
+
+.div29 { /* Lisää tuotekuva nro 29 */
+    background: url("https://public.keskofiles.com/f/k-ruoka/recipe/5952?w=1440&h=640&fit=crop&q=60")
+    no-repeat;
+    -webkit-background-size: cover;
+    min-height: 300px;
+    background-size: cover;
+    transition: 1s filter, 1s -webkit-filter;
+    -webkit-filter: none;
+    filter: none;
+}
+
+.div30 { /* div, joka avaa kuvan ID:lla 30 */
+    border-radius: 12px 12px 0px 0px; /* Kulmat */
+    width: 400px;
+}
+
+.div30 { /* Lisää tuotekuva nro 30 */
+    background: url("https://frm-wows-ru.wgcdn.co/wows_forum_ru/monthly_2019_10/nastol_com.ua-86484.thumb.jpg.4d5eb602b35c57b550861ec7eb1e77c0.jpg")
+    no-repeat;
+    -webkit-background-size: cover;
+    min-height: 300px;
+    background-size: cover;
+    transition: 1s filter, 1s -webkit-filter;
+    -webkit-filter: none;
+    filter: none;
+}
+
+.div31 { /* div, joka avaa kuvan ID:lla 31 */
+    border-radius: 12px 12px 0px 0px; /* Kulmat */
+    width: 400px;
+}
+
+.div31 { /* Lisää tuotekuva nro 31 */
+    background: url("http://visicafe.com/resimler/urunler/cappuccino-4681.jpg")
+    no-repeat;
+    -webkit-background-size: cover;
+    min-height: 300px;
+    background-size: cover;
+    transition: 1s filter, 1s -webkit-filter;
+    -webkit-filter: none;
+    filter: none;
+}
+
+.div32 { /* div, joka avaa kuvan ID:lla 32 */
+    border-radius: 12px 12px 0px 0px; /* Kulmat */
+    width: 400px;
+}
+
+.div32 { /* Lisää tuotekuva nro 32 */
+    background: url("https://cdn.valio.fi/mediafiles/ab855eb4-ebbd-4bb5-835b-5a67390f411f/768x578-recipe-hero")
+    no-repeat;
+    -webkit-background-size: cover;
+    min-height: 300px;
+    background-size: cover;
+    transition: 1s filter, 1s -webkit-filter;
+    -webkit-filter: none;
+    filter: none;
+}
+
+.div33 { /* div, joka avaa kuvan ID:lla 33 */
+    border-radius: 12px 12px 0px 0px; /* Kulmat */
+    width: 400px;
+}
+
+.div33 { /* Lisää tuotekuva nro 33 */
+    background: url("https://i.pinimg.com/originals/6a/84/06/6a8406e4c02b554a15a3ea5ba5796464.jpg")
+    no-repeat;
+    -webkit-background-size: cover;
+    min-height: 300px;
+    background-size: cover;
+    transition: 1s filter, 1s -webkit-filter;
+    -webkit-filter: none;
+    filter: none;
+}
+
+.div34 { /* div, joka avaa kuvan ID:lla 34 */
+    border-radius: 12px 12px 0px 0px; /* Kulmat */
+    width: 400px;
+}
+
+.div34 { /* Lisää tuotekuva nro 34 */
+    background: url("https://assets.rbl.ms/14507300/980x.png")
+    no-repeat;
+    -webkit-background-size: cover;
+    min-height: 300px;
+    background-size: cover;
+    transition: 1s filter, 1s -webkit-filter;
+    -webkit-filter: none;
+    filter: none;
+}
+
+.div35 { /* div, joka avaa kuvan ID:lla 35 */
+    border-radius: 12px 12px 0px 0px; /* Kulmat */
+    width: 400px;
+}
+
+.div35 { /* Lisää tuotekuva nro 35 */
+    background: url("https://gurman-bel.ru/assets/uploads/2019/09/kofe-amerikano.jpg")
+    no-repeat;
+    -webkit-background-size: cover;
+    min-height: 300px;
+    background-size: cover;
+    transition: 1s filter, 1s -webkit-filter;
+    -webkit-filter: none;
+    filter: none;
+}
+
+.div36 { /* div, joka avaa kuvan ID:lla 36 */
+    border-radius: 12px 12px 0px 0px; /* Kulmat */
+    width: 400px;
+}
+
+.div36 { /* Lisää tuotekuva nro 36 */
+    background: url("https://4.bp.blogspot.com/--QDAbBijhSM/XNqLJ_KvpnI/AAAAAAAAs0I/3bXjddNcl4snvOCAO_TCycSUAxiWDUb7wCLcBGAs/s640/Americano.jpg")
+    no-repeat;
+    -webkit-background-size: cover;
+    min-height: 300px;
+    background-size: cover;
+    transition: 1s filter, 1s -webkit-filter;
+    -webkit-filter: none;
+    filter: none;
+}
+
+/**
+ * Uuden ikkunan avaaminen ja tuotteen varjon muuttaminen
+ */
+.uusiikkunaa:hover,
+.uusiikkunaa:focus {
+    /**
+     * Yksipuolinen varjo
+     */
+    -webkit-box-shadow: 0px 0px 22px 0px rgba(209, 209, 209, 1);
+    -moz-box-shadow:    0px 0px 22px 0px rgba(209, 209, 209, 1);
+    box-shadow:         0px 0px 22px 0px rgba(209, 209, 209, 1);
+}
+
+.uusiikkunaa {
+    display: inline-block;
+    background-size: cover;
+    transition: 1s filter, 1s -webkit-filter;
+    -webkit-filter: none;
+    filter: none;
+    width: 400px;
+    /**
+     * Yksipuolinen varjo
+     */
+    -webkit-box-shadow: 0px 0px 22px 0px rgba(209, 209, 209, 0.5);
+    -moz-box-shadow:    0px 0px 22px 0px rgba(209, 209, 209, 0.5);
+    box-shadow:         0px 0px 22px 0px rgba(209, 209, 209, 0.5);
+    background: #FFFFFF; /* Taustaväri */
+    color: #000000; /* Tekstin väri */
+    border-radius: 12px; /* Kulmat */
+    margin: 1em;
+}

@@ -1,0 +1,154 @@
+/* Paras fontti */
+body {
+    font-family: 'Istok Web', sans-serif;
+}
+/*        Otsikko        */
+
+body {
+    margin:0;
+}
+body, html {
+    height: 100%;
+    line-height: 1.8;
+}
+
+/* Ervin café’s Gif animaatio */
+.gif {
+    background-position: center;
+    background-size: cover;
+    background-image: url("https://avatars.mds.yandex.net/get-pdb/472427/2ebf37e4-0f76-49cb-bf0e-af051900921b/orig");
+    min-height: 100%;
+}
+
+.button {
+    padding: 16px;
+}
+
+/* Poistaa tarpeettomia elementtejä */
+.button {
+    border:none;
+    display:inline-block;
+    padding:8px 16px;
+    vertical-align:middle;
+    overflow:hidden;
+    text-decoration:none;
+    color:inherit;
+    background-color:inherit;
+    text-align:center;
+    cursor:pointer;
+    white-space:nowrap;
+}
+
+/* Teksti */
+@media (max-width:600px) {
+    .modal-content {
+        margin:0 10px;width:auto!important
+    }
+
+    .modal {
+        padding-top:30px;
+    }
+
+    /* Tehokas CSS */
+    .pieni {
+        display:none!important;
+    }
+
+    .baarituote.button {
+        width:100%;
+    }
+}
+
+/* Oikea tekstiin muotto */
+@media (min-width:993px) {
+    .hide-large {
+        display:none!important;
+    }
+}
+@media (max-width:992px) and (min-width:601px) {
+    .keskikokoinen {
+        display:none!important;
+    }
+}
+
+/* Muuttaa kuvan korkeutta */
+.top {
+    position:fixed;
+    width:100%;
+    z-index:1;
+    top:0;
+}
+
+/* Muuttaa tekstin korkeutta */
+.display-left {
+    position:absolute;
+    top:50%;
+    left:0%;
+    transform:translate(0%,-50%);
+    -ms-transform:translate(-0%,-50%);
+}
+
+/* Iso otsikko */
+.iso {
+    font-size:36px!important;
+}
+.josisonaytto {
+    font-size:64px!important;
+}
+
+/* Vaakavalikko yhdellä tasolla */
+.rightvaakavalikko {
+    float:right!important;
+}
+
+/* Värit */
+.valkoinen {
+    color:#000!important;background-color:#fff!important;
+}
+
+.valkoinenteksti {
+    color:#fff!important;
+}
+
+/*        Alatunniste        */
+* {
+    box-sizing: border-box;
+    text-decoration: none; /* Peruuta linkin alleviivaus */
+}
+
+h3 {
+    margin-left: 23px; /* Etäisyys vasemmalta */
+}
+
+p {
+    margin-left: 23px; /* Etäisyys vasemmalta */
+}
+
+/* Neljä yhtäläistä saraketta */
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    background-color: #F2F2F2;
+}
+
+/* Poistaa sarakkeiden väliset aukot */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Tekstivärit */
+.logofooter {
+color: black;
+}
+
+.h3footer {
+    color: #B8B8B8;
+}
+
+.pfooter {
+    color: #B8B8B8;
+    font-size: 18px;
+}

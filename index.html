@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="utf-8">
+    <title>Kahvi</title>
+    <link rel="stylesheet" href="CSS/tuotteet.css">
+    <link rel="stylesheet" href="CSS/otsikko&alatunniste.css">
+</head>
+<body>
+<style>
+    /* Ervin’s café Gif animaatio */
+    .gif {
+        background-position: center;
+        background-size: cover;
+        background-image: url("https://avatars.mds.yandex.net/get-pdb/472427/2ebf37e4-0f76-49cb-bf0e-af051900921b/orig");
+        min-height: 100%;
+    }
+
+    .button {
+        padding: 16px;
+    }
+</style>
+
+<!-- Otsikko -->
+<div class="top">
+    <div class="valkoinen">
+        <a href="index.html" class="baarituote button">ERVIN’S CAFÉ</a>
+        <!-- Oikeanpuoleiset navigointipalkit -->
+        <div class="rightvaakavalikko pieni">
+            <a href="index.html" class="baarituote button">Kaikki tuotteet</a>
+            <a href="kahvinhistoria.html" class="baarituote button">Kahvin tarina</a>
+        </div>
+    </div>
+</div>
+
+<!-- Ervin’s café Gif animaatio -->
+<header class="gif">
+    <div class="display-left valkoinenteksti" style="padding:48px">
+        <span class="josisonaytto pieni">Ervin’s café</span><br>
+        <span class="iso hide-large keskikokoinen">Ervin’s café</span><br>
+        <span>Ilmainen kotiinkuljetus yli 10 kupillisen kahvia tilauksille.</span>
+        <p><a href="index.html#tuotteet" class="button valkoinen">Ostoksille</a></p>
+    </div>
+</header>
+
+<!--Tuotteet JSON:llä, Node.js:llä-->
+<ul id="tuotteet"></ul>
+
+<!--Alatunniste-->
+<div class="row">
+    <div class="column">
+        <a href="index.html"><h3 class="logofooter">Ervin’s café</h3></a>
+    </div>
+    <div class="column">
+        <a href="index.html"><h3 class="h3footer">Kaikki tuotteet</h3></a>
+    </div>
+    <div class="column">
+        <a href="kahvinhistoria.html"><h3 class="h3footer">Kahvin tarina</h3></a>
+    </div>
+    <div class="column">
+        <a href="mailto:ervin20050@gmail.com"><h3 class="h3footer">Yritystarjous</h3></a>
+    </div>
+</div>
+
+<script>
+    //XML HttpRequest avaa JSON, Node.js:llä for(var i = 0;i < tuotteet.length;i++)
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+            var response = JSON.parse(xhttp.responseText);
+            var tuotteet = response.tuotteet;
+
+            var output = '';
+            for(var i = 0;i < 18;i++){
+                output += '<a href="'+tuotteet[i].url +
+                    '"><div class="uusiikkunaa"><div class="div'+tuotteet[i].id +
+                    '"></div>'+'<h3>'+tuotteet[i].name+'</h3>' +
+                    '<p class="circle">'+tuotteet[i].hinta+' €</p></div></a>';
+            }
+            document.getElementById('tuotteet').innerHTML = output;
+        }
+    };
+    //avaa tiedosto
+    xhttp.open("GET", "tuotteet.json", true);
+    xhttp.send();
+</script>
+
+
+</body>
+</html>

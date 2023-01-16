@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="utf-8">
+    <title>Kahvin tarina</title>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+    <link rel="stylesheet" href="CSS/tarina.css">
+    <link rel="stylesheet" href="CSS/otsikko&alatunniste.css">
+</head>
+<body>
+
+<!-- Otsikko -->
+<div class="top">
+    <div class="valkoinen">
+        <a href="index.html" class="baarituote button">ERVIN’S CAFÉ</a>
+        <!-- Oikeanpuoleiset navigointipalkit -->
+        <div class="rightvaakavalikko pieni">
+            <a href="index.html" class="baarituote button">Kaikki tuotteet</a>
+            <a href="kahvinhistoria.html" class="baarituote button">Kahvin tarina</a>
+        </div>
+    </div>
+</div>
+
+<!-- Sisaltö -->
+<p>Historia</p>
+<div id="demo" class="container">
+    <h3>Historia</h3>
+    <input v-model="etsi" placeholder="Kahvin nimi">
+
+    <table class="table table-striped">
+        <thead>
+        <tr>
+            <th v-repeat="column: columns">
+                <a href="kahvinhistoria.html#" v-on="click: sortBy(column)" v-class="active: sortKey == column">
+                    {{ column | capitalize }}
+                </a>
+            </th>
+        </tr>
+        </thead>
+
+        <tbody>
+        <tr v-repeat="kahvi | filterBy etsi | orderBy sortKey reverse">
+            <td>{{ kahvinnimi }}</td>
+            <td>{{ kuvaus }}</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+
+<!--Alatunniste-->
+<div class="row">
+    <div class="column">
+        <a href="index.html"><h3 class="logofooter">Ervin’s café</h3></a>
+    </div>
+    <div class="column">
+        <a href="index.html"><h3 class="h3footer">Kaikki tuotteet</h3></a>
+    </div>
+    <div class="column">
+        <a href="kahvinhistoria.html"><h3 class="h3footer">Kahvin tarina</h3></a>
+    </div>
+    <div class="column">
+        <a href="mailto:ervin20050@gmail.com"><h3 class="h3footer">Yritystarjous</h3></a>
+    </div>
+</div>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/0.12.16/vue.min.js'></script>
+    <script src="JS/tarina.js"></script>
+    <script src="http://cafe-application.eu5.net/JS/Testit/tarinatesti.js"></script>
+</body>
+</html>
